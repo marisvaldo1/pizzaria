@@ -15,7 +15,7 @@ Este é o repositório para o projeto Pizzaria. Abaixo estão as instruções pa
 3. Execute o seguinte comando para clonar o repositório:
 
 ```bash
-git clone https://github.com/<username>/pizzaria.git
+git clone https://github.com/marisvaldo1/pizzaria.git
 cd pizzaria
 ```
 
