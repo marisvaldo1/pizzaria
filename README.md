@@ -55,8 +55,10 @@ Se preferir executar o projeto usando Docker, siga os passos abaixo:
 2. Na raiz do projeto (diretório pizzaria), execute o seguinte comando para construir e iniciar os containers:
   docker-compose up --build
 4 . Após a construção, o backend estará disponível em http://localhost:3001 e o frontend em http://localhost:3000.
+```
 
 # Executar os Testes
+```
   Para rodar os testes do backend, siga os passos abaixo:
 
 1. Navegue até o diretório backend:
