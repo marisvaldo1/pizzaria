@@ -59,7 +59,7 @@ Se preferir executar o projeto usando Docker, siga os passos abaixo:
 
 # Executar os Testes
 ```
-  Para rodar os testes do backend, siga os passos abaixo:
+Para rodar os testes do backend, siga os passos abaixo:
 
 1. Navegue até o diretório backend:
   cd backend
