@@ -20,31 +20,35 @@ cd pizzaria
 ```
 
 # Configurar e Executar o Backend
+```
 1. Navegue até o diretório backend:
   cd backend
 2. Instale as dependências do Node.js:
   npm install
 
-
-# Exemplo de variáveis de ambiente
+- Exemplo de variáveis de ambiente
   DATABASE_URL=sqlite:./database.sqlite
 
-4. Gere as migrações do banco de dados:
+- Gere as migrações do banco de dados:
   npm run typeorm migration:run
 
-5. Inicie o servidor backend:
+- Inicie o servidor backend:
 npm start
+```
 
 ## Configurar e Executar o Frontend
+```
 1. Abra um novo terminal ou prompt de comando.
 2. Navegue até o diretório frontend:
-  cd frontend
+  - cd frontend
 3. Instale as dependências do Node.js:
-  npm install
+  - npm install
 4. Inicie o servidor frontend:
-  npm start
+  - npm start
+```
 
 # Executar o Projeto com Docker
+```
 Se preferir executar o projeto usando Docker, siga os passos abaixo:
 
 1. Certifique-se de que o Docker está instalado e em execução na sua máquina.
@@ -59,10 +63,11 @@ Se preferir executar o projeto usando Docker, siga os passos abaixo:
   cd backend
 2. Execute o seguinte comando para rodar os testes:
   npm test
+```
 
 # Testar as APIs
   Para testar as APIs, você pode usar ferramentas como o Postman ou o Insomnia. As principais rotas disponíveis são:
-
+```
 1. Rotas de Pizza
   . GET /pizzas: Lista todas as pizzas.
   . POST /pizzas: Cria uma nova pizza.
@@ -74,14 +79,17 @@ Se preferir executar o projeto usando Docker, siga os passos abaixo:
   . POST /pedidos: Cria um novo pedido.
   . GET /pedidos/:id: Busca um pedido pelo ID.
   . DELETE /pedidos/:id: Exclui um pedido pelo ID.
-   
+```
+
 # Documentação das APIs
   A documentação das APIs está disponível via Swagger. Para acessar a documentação, siga os passos abaixo:
-
-1. Certifique-se de que o backend está em execução.
-2. Abra o navegador e acesse http://localhost:3001/api-docs.
+```  
+    1. Certifique-se de que o backend está em execução.
+    2. Abra o navegador e acesse http://localhost:3001/api-docs.
+```
 
 # Estrutura do Projeto
+```
 pizzaria/
 ├── backend/
 │   ├── src/
@@ -109,8 +117,5 @@ pizzaria/
 │   ├── tailwind.config.js
 │   ├── postcss.config.js
 │   └── ...
-├── docker-compose.yml
-└── README.md
-
-# Contato
-Para mais informações, entre em contato com Marisvaldo.
+└── docker-compose.yml
+```
